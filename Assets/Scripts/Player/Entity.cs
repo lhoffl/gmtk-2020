@@ -30,28 +30,12 @@ public class Entity : MonoBehaviour {
     }
 
     private void Update() {
-        ReadInput();
-        HandleInput();
+        HandleInput(_location);
         _currentState.Update();
     }
 
-    private void ReadInput() {
-        
-        if(Input.GetMouseButtonDown(0)) {
-
-            _leftMouseClick = true;
-            _location = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            _location.x = Mathf.Floor(_location.x);
-            _location.y = Mathf.Floor(_location.y);
-            Debug.Log("Selected: " + _location);
-            _location.z = 0;
-        }
-        else {
-            _leftMouseClick = false;
-        }
-    }
-
-    public void HandleInput() {
+    public void HandleInput(Vector3 location) {
+        _location = location;
         _currentState.HandleInput(_location, _leftMouseClick);
     }
 

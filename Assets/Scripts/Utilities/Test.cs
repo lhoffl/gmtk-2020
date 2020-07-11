@@ -21,7 +21,7 @@ public class Test : MonoBehaviour
     void Update()
     {
         
-        if(Input.GetMouseButtonDown(1)) {
+        if(Input.GetKeyDown("space")) {
             Vector3 worldCoordinates = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Vector2Int gridCoordinates = _objectGrid.GetGridCoordinates(worldCoordinates);
 
