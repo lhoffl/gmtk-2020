@@ -19,7 +19,8 @@ public class Test : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown("space")) {
+        
+        if(Input.GetKeyDown(KeyCode.DownArrow)) {
             Vector3 worldCoordinates = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Vector2Int gridCoordinates = _objectGrid.GetGridCoordinates(worldCoordinates);
 
