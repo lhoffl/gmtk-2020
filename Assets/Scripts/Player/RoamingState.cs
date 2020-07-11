@@ -21,7 +21,6 @@ public class RoamingState : IState {
     }
 
     public void Enter(Entity entity) {
-        Debug.Log(entity.gameObject.name + " is roaming");
         _entity = entity;
         _startLocation = _entity.transform.position;
         _targetLocation = GetValidateAlternatePoint();
@@ -40,6 +39,8 @@ public class RoamingState : IState {
         
         Vector3 target = new Vector3(-1, -1, -1);
 
+        int count = 0;
+
         while(!GameManager.Instance.ValidPosition(target)) {
             int randomDirection = Random.Range(0,4);
         
@@ -54,6 +55,12 @@ public class RoamingState : IState {
             }
             if(randomDirection == 3) {
                 target = _startLocation + new Vector3(0, -randomDirection, 0);
+            }
+
+            count++;
+
+            if(count > 10) {
+                _entity.EnterState(new IdleState());
             }
         }
         Debug.Log(target);
