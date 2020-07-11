@@ -20,6 +20,9 @@ public class MovingState : IState {
     private float _distanceThreshold = 0.015f;
 
     public void HandleInput(Vector3 position, bool leftMouseClick) {
+
+        Debug.Log("Recieved " + position);
+
         if(_targetLocation != position) {
             _targetLocation = position;
             _pathVectorList = Pathfinding.Instance.FindVectorPath(_startLocation, _targetLocation);
@@ -58,11 +61,15 @@ public class MovingState : IState {
                 // snap to the grid
                 _entity.transform.position = _currentTarget; 
                 _currentPathIndex++;
+            
                 if(_currentPathIndex >= _pathVectorList.Count) {
                     _pathVectorList = null;
                     _entity.EnterState(new IdleState());
                 }
             }
+        }
+        else {
+            _entity.EnterState(new IdleState());
         }
     }
 }
