@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class Entity : MonoBehaviour {
     
+    public GameObject spell;
     [SerializeField]
     private int _baseMovementSpeed = 5;
+    public int maxHealth = 10;
+    public int currentHealth;
 
     [SerializeField]
     private bool _isPlayerEntity = true;
@@ -31,6 +34,7 @@ public class Entity : MonoBehaviour {
     private void Start() {
         _currentState = new IdleState();
         _currentState.Enter(this);
+        currentHealth = maxHealth;
     }
 
     private void Update() {
@@ -51,5 +55,14 @@ public class Entity : MonoBehaviour {
 
     public IState CurrentState() {
         return _currentState;
+    }
+
+    public void CheckForDeath(){
+        if (currentHealth <= 0) gameObject.active = false;
+    }
+
+    public void ModifyHealth(int healthMod){
+        currentHealth += healthMod;
+        CheckForDeath();
     }
 }
