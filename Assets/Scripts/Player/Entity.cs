@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Entity : MonoBehaviour {
     
+    public GameObject spell;
+
     [SerializeField]
     private int _baseMovementSpeed = 5;
     

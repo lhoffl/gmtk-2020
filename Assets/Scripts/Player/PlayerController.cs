@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour {
     
     Entity _currentEntity;
     
-    private bool _leftMouseClick, _rightMouseClick;
+    private bool _leftMouseClick, _rightMouseClick, _space;
     private Vector3 _selectedLocation;
  
     void Update() {
@@ -16,6 +16,12 @@ public class PlayerController : MonoBehaviour {
     }
 
     private void ReadInput() {
+
+        _selectedLocation =  Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        _selectedLocation.x = Mathf.Floor(_selectedLocation.x);
+        _selectedLocation.y = Mathf.Floor(_selectedLocation.y);
+        _selectedLocation.z = 0;
+
         if(Input.GetMouseButtonDown(0)) {
             _leftMouseClick = true;
         }
@@ -23,6 +29,13 @@ public class PlayerController : MonoBehaviour {
             _rightMouseClick = true;
         }
 
+        if(Input.GetKeyDown(KeyCode.Space)){
+            _selectedLocation.x = Mathf.Floor(_selectedLocation.x);
+            _selectedLocation.y = Mathf.Floor(_selectedLocation.y);
+            _space = true;
+        }
+
+        /*
         if(_leftMouseClick || _rightMouseClick) {
             _selectedLocation =  Camera.main.ScreenToWorldPoint(Input.mousePosition);
             _selectedLocation.x = Mathf.Floor(_selectedLocation.x);
@@ -30,11 +43,13 @@ public class PlayerController : MonoBehaviour {
             _selectedLocation.z = 0;
             Debug.Log("Selected: " + _selectedLocation);
         }
+        */
     }
 
     private void ResetInput() {
         _leftMouseClick = false;
         _rightMouseClick = false;
+        _space = false;
         _selectedLocation = Vector3.zero;
     }
 
@@ -44,12 +59,20 @@ public class PlayerController : MonoBehaviour {
 
         if(_rightMouseClick) {
                 selectedEntity = RayCastFromMouse();
-                _currentEntity = selectedEntity;
+                if (selectedEntity!= null) _currentEntity = selectedEntity;
         }
 
         if(_leftMouseClick) {
             if(_currentEntity != null) {
                 _currentEntity.EnterState(new MovingState());
+                _currentEntity.HandleInput(_selectedLocation);
+            }
+        }
+
+        if(_space){
+            selectedEntity = RayCastFromMouse();
+            if(selectedEntity == null && _currentEntity != null){
+                _currentEntity.EnterState(new AttackState());
                 _currentEntity.HandleInput(_selectedLocation);
             }
         }
