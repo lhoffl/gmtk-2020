@@ -36,9 +36,8 @@ public class Spell : MonoBehaviour
         _timeAlive++;
     }
 
-    void OnCollisionEnter(Collision collision){
-        Debug.Log("Projectile collided with: " + collision);
-        Destroy(gameObject);
+   private void OnTriggerEnter2D(Collider2D other) {
+
         if(other.gameObject.GetComponent<Entity>() != Caster) {
             if(other.gameObject.GetComponent<Spell>() == null) {
                 Debug.Log("Spell cast by " + Caster + " hit " + other.gameObject.name);
@@ -47,5 +46,6 @@ public class Spell : MonoBehaviour
                 PlayerSpellPool.Instance.ReturnSpell(this);
             }
         }
-    }
+   }
+    
 }

@@ -56,4 +56,13 @@ public class Entity : MonoBehaviour {
     public IState CurrentState() {
         return _currentState;
     }
+
+    public CheckForDeath(){
+        if (currentHealth <= 0) gameObject.active = false;
+    }
+
+    public ModifyHealth(int healthMod){
+        currentHealth += healthMod;
+        CheckForDeath();
+    }
 }
