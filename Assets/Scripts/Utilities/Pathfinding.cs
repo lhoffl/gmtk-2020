@@ -32,8 +32,6 @@ public class Pathfinding {
 
             foreach(PathNode pathNode in path) {
                 vectorPath.Add(new Vector3(pathNode.x, pathNode.y));
-                //vectorPath.Add(new Vector3(pathNode.x, pathNode.y) * _grid.GetCellSize() + Vector3.one * _grid.GetCellSize() * 0.5f);
-                //Debug.Log(pathNode.toString());
             }
 
             return vectorPath;

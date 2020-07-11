@@ -6,6 +6,10 @@ public class Entity : MonoBehaviour {
     
     [SerializeField]
     private int _baseMovementSpeed = 5;
+
+    [SerializeField]
+    private bool _isPlayerEntity = true;
+    public bool IsPlayerEntity => _isPlayerEntity;
     
     private int _currentMovementSpeed;
     public int MovementSpeed => _currentMovementSpeed;
@@ -40,10 +44,14 @@ public class Entity : MonoBehaviour {
     }
 
     public void EnterState(IState state) {
-        Debug.Log("Entering " + _currentState);
+        //Debug.Log("Entering " + _currentState);
         
         _currentState.Exit();
         _currentState = state;
         _currentState.Enter(this);
+    }
+
+    public IState CurrentState() {
+        return _currentState;
     }
 }
