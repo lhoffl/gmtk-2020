@@ -261,7 +261,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 347035019}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -450,7 +450,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1374036102}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3, y: 4, z: 0}
+  m_LocalPosition: {x: 3, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -482,10 +482,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 1691357159}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fb1c43127b155d49ad9f23d09b8afb0, type: 3}
+  m_Script: {fileID: 11500000, guid: 67dc4f9a33781434e82b2bab992db417, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _box: {fileID: 5158957660608608777, guid: 69ab5cd36b1edc949af7fd863405a71d, type: 3}
+  tileTypes:
+  - name: Floor
+    tileVisualPrefab: {fileID: 3687042727815401441, guid: d371a8ec237e3524191ce4a3ceb371ae,
+      type: 3}
+    passable: 1
+  - name: Wall
+    tileVisualPrefab: {fileID: 8367469677629556433, guid: 7a75d0cc4d35765418a3c2d86efbb2b4,
+      type: 3}
+    passable: 0
+  mapSizeX: 10
+  mapSizeY: 10
 --- !u!4 &1691357161
 Transform:
   m_ObjectHideFlags: 0
