@@ -261,7 +261,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4, y: 2, z: -10}
+  m_LocalPosition: {x: 5, y: 5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -920,6 +920,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1972515796}
   - component: {fileID: 1972515797}
+  - component: {fileID: 1972515798}
   m_Layer: 0
   m_Name: Grid
   m_TagString: Untagged
@@ -954,3 +955,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _box: {fileID: 5158957660608608777, guid: 69ab5cd36b1edc949af7fd863405a71d, type: 3}
+--- !u!114 &1972515798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972515795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67dc4f9a33781434e82b2bab992db417, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileTypes: []
+  mapSizeX: 10
+  mapSizeY: 10

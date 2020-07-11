@@ -34,16 +34,6 @@ public class PlayerController : MonoBehaviour {
             _selectedLocation.y = Mathf.Floor(_selectedLocation.y);
             _space = true;
         }
-
-        /*
-        if(_leftMouseClick || _rightMouseClick) {
-            _selectedLocation =  Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            _selectedLocation.x = Mathf.Floor(_selectedLocation.x);
-            _selectedLocation.y = Mathf.Floor(_selectedLocation.y);
-            _selectedLocation.z = 0;
-            //Debug.Log("Selected: " + _selectedLocation);
-        }
-        */
     }
 
     private void ResetInput() {
@@ -64,16 +54,20 @@ public class PlayerController : MonoBehaviour {
 
         if(_leftMouseClick) {
             if(_currentEntity != null) {
-                _currentEntity.EnterState(new MovingState());
-                _currentEntity.HandleInput(_selectedLocation);
+                if(!typeof(MovingState).IsInstanceOfType(_currentEntity.CurrentState())) {
+                    _currentEntity.EnterState(new MovingState());
+                    _currentEntity.HandleInput(_selectedLocation);
+                }
             }
         }
 
         if(_space){
-            selectedEntity = RayCastFromMouse();
-            if(selectedEntity == null && _currentEntity != null){
-                _currentEntity.EnterState(new AttackState());
-                _currentEntity.HandleInput(_selectedLocation);
+            //selectedEntity = RayCastFromMouse();
+            if(_currentEntity != null){
+                if(!typeof(MovingState).IsInstanceOfType(_currentEntity.CurrentState())) {
+                    _currentEntity.EnterState(new AttackState());
+                    _currentEntity.HandleInput(_selectedLocation);
+                }
             }
         }
     }
