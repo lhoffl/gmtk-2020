@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
     
+    [SerializeField]
     Entity _currentEntity;
     
     private bool _leftMouseClick, _rightMouseClick, _space;
@@ -13,14 +14,11 @@ public class PlayerController : MonoBehaviour {
         ReadInput();
         HandleInput();
         ResetInput();
+
+        Debug.Log(_currentEntity.CurrentState());
     }
 
     private void ReadInput() {
-
-        _selectedLocation =  Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        _selectedLocation.x = Mathf.Floor(_selectedLocation.x);
-        _selectedLocation.y = Mathf.Floor(_selectedLocation.y);
-        _selectedLocation.z = 0;
 
         if(Input.GetMouseButtonDown(0)) {
             _leftMouseClick = true;
@@ -30,9 +28,14 @@ public class PlayerController : MonoBehaviour {
         }
 
         if(Input.GetKeyDown(KeyCode.Space)){
+            _space = true;
+        }
+
+        if(_leftMouseClick || _rightMouseClick || _space) {
+            _selectedLocation =  Camera.main.ScreenToWorldPoint(Input.mousePosition);
             _selectedLocation.x = Mathf.Floor(_selectedLocation.x);
             _selectedLocation.y = Mathf.Floor(_selectedLocation.y);
-            _space = true;
+            _selectedLocation.z = 0;
         }
     }
 
@@ -48,8 +51,8 @@ public class PlayerController : MonoBehaviour {
         Entity selectedEntity = null;
 
         if(_rightMouseClick) {
-                selectedEntity = RayCastFromMouse();
-                if (selectedEntity!= null) _currentEntity = selectedEntity;
+            selectedEntity = RayCastFromMouse();
+            if (selectedEntity!= null) _currentEntity = selectedEntity;
         }
 
         if(_leftMouseClick) {

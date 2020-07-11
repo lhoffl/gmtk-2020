@@ -20,11 +20,13 @@ public class EnemyController : MonoBehaviour {
 
             if(playerEntity != null) {
                 MoveToEntity(enemy, playerEntity);
+                AttackEntity(enemy, playerEntity);
             }
             else {
 
-                if(!typeof(RoamingState).IsInstanceOfType(enemy.CurrentState()))
+                if(!typeof(RoamingState).IsInstanceOfType(enemy.CurrentState())) {
                     enemy.EnterState(new RoamingState());
+                }
             }
         }
     }
@@ -88,6 +90,13 @@ public class EnemyController : MonoBehaviour {
             }
         } else {
             enemy.EnterState(new RoamingState());
+        }
+    }
+
+    private void AttackEntity(Entity enemy, Entity entity) {
+    
+        if(Vector3.Distance(enemy.transform.position, entity.transform.position) <= _enemySightRange / 2) {
+            enemy.EnterState(new AttackState());
         }
     }
 }
