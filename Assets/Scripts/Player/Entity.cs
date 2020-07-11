@@ -57,11 +57,11 @@ public class Entity : MonoBehaviour {
         return _currentState;
     }
 
-    public CheckForDeath(){
+    public void CheckForDeath(){
         if (currentHealth <= 0) gameObject.active = false;
     }
 
-    public ModifyHealth(int healthMod){
+    public void ModifyHealth(int healthMod){
         currentHealth += healthMod;
         CheckForDeath();
     }
