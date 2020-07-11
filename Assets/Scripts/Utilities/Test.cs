@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Test : MonoBehaviour
-{
+public class Test : MonoBehaviour {
     Grid<GameObject> _objectGrid;
     private Pathfinding _pathFinding;
 
@@ -13,14 +12,13 @@ public class Test : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       _objectGrid = new Grid<GameObject>(10,10, Vector3.zero, 1, (Grid<GameObject> grid, int x, int y) => null);
+       _objectGrid = GameManager.Instance.GetObjectGrid();
        _pathFinding = new Pathfinding(10, 10);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
         if(Input.GetKeyDown("space")) {
             Vector3 worldCoordinates = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Vector2Int gridCoordinates = _objectGrid.GetGridCoordinates(worldCoordinates);

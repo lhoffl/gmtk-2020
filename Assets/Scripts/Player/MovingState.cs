@@ -21,7 +21,7 @@ public class MovingState : IState {
 
     public void HandleInput(Vector3 position, bool leftMouseClick) {
         if(_targetLocation != position) {
-            Debug.Log("Moving to " + position);
+            //Debug.Log("Moving to " + position);
             _targetLocation = position;
             _pathVectorList = Pathfinding.Instance.FindVectorPath(_startLocation, _targetLocation);
         

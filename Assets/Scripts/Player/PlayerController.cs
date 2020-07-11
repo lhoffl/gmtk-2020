@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour {
             _selectedLocation.x = Mathf.Floor(_selectedLocation.x);
             _selectedLocation.y = Mathf.Floor(_selectedLocation.y);
             _selectedLocation.z = 0;
-            Debug.Log("Selected: " + _selectedLocation);
+            //Debug.Log("Selected: " + _selectedLocation);
         }
     }
 
@@ -43,8 +43,8 @@ public class PlayerController : MonoBehaviour {
         Entity selectedEntity = null;
 
         if(_rightMouseClick) {
-                selectedEntity = RayCastFromMouse();
-                _currentEntity = selectedEntity;
+            selectedEntity = RayCastFromMouse();
+            _currentEntity = selectedEntity;
         }
 
         if(_leftMouseClick) {
@@ -58,11 +58,15 @@ public class PlayerController : MonoBehaviour {
     private Entity RayCastFromMouse() {
         
         Vector2 location2D = new Vector2(_selectedLocation.x, _selectedLocation.y);
-        RaycastHit2D hit = Physics2D.Raycast(location2D, Vector2.zero);
+        RaycastHit2D[] hitEntities = Physics2D.RaycastAll(location2D, Vector2.zero);
 
-        if(hit.collider != null) {
-            Debug.Log("Selected Unit: " + hit.collider.gameObject.name);
-            return hit.collider.gameObject.GetComponent<Entity>();
+        foreach(RaycastHit2D hit in hitEntities) {
+            if(hit.collider != null) {
+                if(hit.collider.gameObject.GetComponent<Entity>().IsPlayerEntity) {
+                    Debug.Log("Selected Unit: " + hit.collider.gameObject.name);
+                    return hit.collider.gameObject.GetComponent<Entity>();
+                }
+            }
         }
 
         return null;
