@@ -7,6 +7,7 @@ public class Spell : MonoBehaviour
 
     public int secondsToLive;
     public float speed;
+    public int damage;
 
     public Entity Caster { get; set; }
 
@@ -35,11 +36,14 @@ public class Spell : MonoBehaviour
         _timeAlive++;
     }
 
-    private void OnTriggerEnter2D(Collider2D other) {
-
+    void OnCollisionEnter(Collision collision){
+        Debug.Log("Projectile collided with: " + collision);
+        Destroy(gameObject);
         if(other.gameObject.GetComponent<Entity>() != Caster) {
             if(other.gameObject.GetComponent<Spell>() == null) {
                 Debug.Log("Spell cast by " + Caster + " hit " + other.gameObject.name);
+                Entity hitEntity = other.gameObject.GetComponent<Entity>();
+                if (hitEntity != null) hitEntity.ModifyHealth((damage * -1));
                 PlayerSpellPool.Instance.ReturnSpell(this);
             }
         }

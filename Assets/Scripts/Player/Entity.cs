@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class Entity : MonoBehaviour {
     
+    public GameObject spell;
+    [SerializeField]
+    private int _baseMovementSpeed = 5;
+    public int maxHealth = 10;
+    public int currentHealth;
+
     [SerializeField]
     private int _baseMovementSpeed = 5;
 
@@ -31,6 +37,7 @@ public class Entity : MonoBehaviour {
     private void Start() {
         _currentState = new IdleState();
         _currentState.Enter(this);
+        currentHealth = maxHealth;
     }
 
     private void Update() {
