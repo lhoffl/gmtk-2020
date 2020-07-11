@@ -11,9 +11,6 @@ public class Entity : MonoBehaviour {
     public int currentHealth;
 
     [SerializeField]
-    private int _baseMovementSpeed = 5;
-
-    [SerializeField]
     private bool _isPlayerEntity = true;
     public bool IsPlayerEntity => _isPlayerEntity;
     
