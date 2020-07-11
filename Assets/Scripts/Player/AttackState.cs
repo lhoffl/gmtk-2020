@@ -34,16 +34,18 @@ public class AttackState : IState
         var distance = heading.magnitude;
         var direction = heading / distance;
         */
-        Debug.Log("Shooting: " + heading);
-        GameObject projectile = (GameObject)Object.Instantiate(_entity.spell);
-        projectile.transform.position = _entity.transform.GetComponent<Renderer>().bounds.center;
-        projectile.transform.rotation = Quaternion.Euler(0.0f, 0.0f, rotationZ);
-        projectile.GetComponent<Rigidbody2D>().velocity = direction; 
+        Spell projectile = PlayerSpellPool.Instance.GetSpell();
+        if(projectile != null) {
+            projectile.gameObject.SetActive(true);
+            projectile.transform.position = _entity.transform.GetComponent<Renderer>().bounds.center;
+            projectile.transform.rotation = Quaternion.Euler(0.0f, 0.0f, rotationZ);
+            projectile.GetComponent<Rigidbody2D>().velocity = direction; 
+            projectile.Caster = _entity;
+        }
         _entity.EnterState(new IdleState());
     }
     
     private IEnumerator Cooldown(){
             yield return new WaitForSeconds(cooldownTime);
-            Debug.Log("Cooldown finished");
         }
 }

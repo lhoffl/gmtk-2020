@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Entity : MonoBehaviour {
     
-    public GameObject spell;
-
     [SerializeField]
     private int _baseMovementSpeed = 5;
 
@@ -46,8 +44,6 @@ public class Entity : MonoBehaviour {
     }
 
     public void EnterState(IState state) {
-        //Debug.Log("Entering " + _currentState);
-        
         _currentState.Exit();
         _currentState = state;
         _currentState.Enter(this);
