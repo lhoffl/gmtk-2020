@@ -11,6 +11,7 @@ public class Grid<T> {
     private int _cellSize;
 
     private T[,] _grid;
+    private int[,] _tiles;
 
     private Vector3 _origin;
 
@@ -21,6 +22,7 @@ public class Grid<T> {
         _cellSize = cellSize;
 
         _grid = new T[_width, _height];
+        _tiles = new int[_width, _height];
 
         _origin = origin;
 
@@ -30,7 +32,7 @@ public class Grid<T> {
             }
         }
         
-        DrawGrid();
+        //DrawGrid();
     }
 
     private Vector3 GetWorldPosition(int x, int y) {
@@ -85,5 +87,13 @@ public class Grid<T> {
 
     public int GetCellSize() {
         return _cellSize;
+    }
+
+    public int GetTileType(int x, int y){
+        return _tiles[x,y];
+    }
+
+    public void SetTileType(int x, int y, int type){
+        _tiles[x,y] = type;
     }
 }
