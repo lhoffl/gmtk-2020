@@ -6,7 +6,7 @@ using UnityEngine.Tilemaps;
 public class GenerateWalls : MonoBehaviour {
 
     [SerializeField]
-    private Tilemap _walls, _floors;
+    public Tilemap _walls, _floors;
 
     Grid<GameObject> _objectGrid;
     private Pathfinding _pathFinding;
