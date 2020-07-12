@@ -6,5 +6,6 @@ public enum SpellType {
     Fire,
     Ice,
     Healing,
-    Lightning
+    Lightning,
+    None
 }

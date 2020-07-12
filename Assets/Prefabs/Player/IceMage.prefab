@@ -119,9 +119,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _baseMovementSpeed: 5
-  maxHealth: 15
+  maxHealth: 200
   currentHealth: 0
   _isPlayerEntity: 1
+  _type: 0
 --- !u!61 &3209055612750939414
 BoxCollider2D:
   m_ObjectHideFlags: 0

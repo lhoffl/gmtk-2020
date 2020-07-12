@@ -18,8 +18,12 @@ public class Entity : MonoBehaviour {
 
     [SerializeField]
     private SpellType _type;
-
     public SpellType Type => _type;
+
+    public SpellType StatusEffect { get; set; }
+
+    private int _statusEffectTimer = 30;
+    private int _count = 0;
     
     [SerializeField]
     private IState _currentState;
@@ -33,6 +37,7 @@ public class Entity : MonoBehaviour {
     private void Awake() {
         _rigidbody = GetComponent<Rigidbody2D>();
         _currentMovementSpeed = _baseMovementSpeed;
+        StatusEffect = SpellType.None;
     }
 
     private void Start() {
@@ -44,6 +49,7 @@ public class Entity : MonoBehaviour {
     private void Update() {
         HandleInput(_location);
         _currentState.Update();
+        TickStatusEffect();
     }
 
     public void HandleInput(Vector3 location) {
@@ -68,5 +74,27 @@ public class Entity : MonoBehaviour {
     public void ModifyHealth(int healthMod){
         currentHealth += healthMod;
         CheckForDeath();
+    }
+
+    public void TickStatusEffect() {
+        if(StatusEffect == SpellType.None) {
+            return;
+        }
+
+        if(StatusEffect == SpellType.Fire) {
+            ModifyHealth(-1);
+            _count++;
+        }
+
+        if(StatusEffect == SpellType.Ice) {
+            _currentMovementSpeed = _baseMovementSpeed / 2;
+            _count++;
+        }
+
+        if(_count >= _statusEffectTimer) {
+            _count = 0;
+            StatusEffect = SpellType.None;
+            _currentMovementSpeed = _baseMovementSpeed;
+        }
     }
 }

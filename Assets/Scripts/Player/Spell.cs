@@ -48,6 +48,7 @@ public class Spell : MonoBehaviour
 
                 if (hitEntity != null) {
                     hitEntity.ModifyHealth((damage * -1 * GetDamageModifier(hitEntity.Type)));
+                    hitEntity.StatusEffect = this.Type;
                     Debug.Log("Spell cast by " + Caster + " hit " + other.gameObject.name + " for " + damage * -1 * GetDamageModifier(hitEntity.Type));
                     PlayerSpellPool.Instance.ReturnSpell(this);
                 }
