@@ -17,9 +17,11 @@ public class Spell : MonoBehaviour
     private CircleCollider2D _collider;
     private int _timeAlive;
 
-    private int _criticalDamageModifier = 4;
-    private int _normalDamageModifier = 2;
-    private int _ineffectiveDamageModifier = 1;
+    private int _criticalDamageModifier = 12;
+    private int _normalDamageModifier = 8;
+    private int _ineffectiveDamageModifier = 4;
+
+    private Vector3 _previousLocation = new Vector3(10000,10000,10000);
 
     private ParticleSystem ps;
     private ParticleSystem.ColorOverLifetimeModule colorModule;
@@ -41,6 +43,12 @@ public class Spell : MonoBehaviour
         if(_timeAlive >= secondsToLive * 95) {
             PlayerSpellPool.Instance.ReturnSpell(this);
         }
+
+        if(Vector3.Distance(transform.position, _previousLocation) < 0.001f) {
+            PlayerSpellPool.Instance.ReturnSpell(this);
+        }
+
+        _previousLocation = transform.position;
 
         _timeAlive++;
 
@@ -75,25 +83,42 @@ public class Spell : MonoBehaviour
 
     private int GetDamageModifier(SpellType type) {
 
-        if(type == this.Type) {
-            return _normalDamageModifier;
-        }
-
         int damageMod = _normalDamageModifier;
+
+        if(GameManager.Instance.OnePlayerRemaining) {
+            return _criticalDamageModifier * _criticalDamageModifier;
+        }
 
         switch (type) {
             case SpellType.Fire:
                 if(this.Type == SpellType.Ice) {
                     return _ineffectiveDamageModifier;
                 }
+                if(this.Type == SpellType.Lightning) {
+                    return _criticalDamageModifier;
+                }
                 break;
             case SpellType.Ice:
                 if(this.Type == SpellType.Fire) {
                     return _criticalDamageModifier;    
                 }
+                if(this.Type == SpellType.Lightning) {
+                    return _ineffectiveDamageModifier;
+                }
+                break;
+            case SpellType.Lightning:
+                if(this.Type == SpellType.Ice) {
+                    return _criticalDamageModifier;
+                }
+                if(this.Type == SpellType.Fire) {
+                    return _ineffectiveDamageModifier;
+                }
                 break;
             case SpellType.Healing:
-                return _normalDamageModifier * -1;
+                if(this.Type == SpellType.Healing) {
+                    return _normalDamageModifier * -1;
+                }
+                return _normalDamageModifier;
         }
 
         return damageMod;
