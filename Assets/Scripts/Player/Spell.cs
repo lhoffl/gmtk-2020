@@ -31,7 +31,7 @@ public class Spell : MonoBehaviour
         _timeAlive = 0;
     }
 
-    void Update() {
+    void FixedUpdate() {
 
         if(_timeAlive >= secondsToLive * 360) {
             PlayerSpellPool.Instance.ReturnSpell(this);

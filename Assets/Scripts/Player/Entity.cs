@@ -74,6 +74,9 @@ public class Entity : MonoBehaviour {
     public void ModifyHealth(int healthMod){
         currentHealth += healthMod;
         CheckForDeath();
+        if(currentHealth > maxHealth * 2) {
+            currentHealth = maxHealth * 2;
+        }
     }
 
     public void TickStatusEffect() {
