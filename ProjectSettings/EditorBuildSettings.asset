@@ -17,4 +17,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menus/Credits.unity
     guid: c490d2164b43dc94a93070da67268ddd
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level1-TwoVsOne.unity
+    guid: a130a1f88045de644805c2a66562f273
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level2-TwoVsTwo.unity
+    guid: 80981fde5f105c344ab703de76f4e89a
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level3-Lanes.unity
+    guid: 0933b308bb99ed24b865f150ab3a061c
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level4-StartAndStop.unity
+    guid: 742082055e79f224e922846ccf9ab25e
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level5-FireHell.unity
+    guid: 8f55ee5fd0bcddd438cae4dc38e0a93d
   m_configObjects: {}
