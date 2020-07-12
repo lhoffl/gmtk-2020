@@ -9,10 +9,15 @@ public class Entity : MonoBehaviour {
     public int maxHealth = 10;
     public int currentHealth;
 
+    public int cooldownTracker = 0;
+
     [SerializeField]
     private bool _isPlayerEntity = true;
     public bool IsPlayerEntity => _isPlayerEntity;
-    
+
+    [SerializeField]
+    public bool IsSelected { get; set; }
+
     private int _currentMovementSpeed;
     public int MovementSpeed => _currentMovementSpeed;
 
@@ -24,6 +29,8 @@ public class Entity : MonoBehaviour {
 
     private int _statusEffectTimer = 30;
     private int _count = 0;
+
+    private Animator _animator;
     
     [SerializeField]
     private IState _currentState;
@@ -36,6 +43,7 @@ public class Entity : MonoBehaviour {
 
     private void Awake() {
         _rigidbody = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
         _currentMovementSpeed = _baseMovementSpeed;
         StatusEffect = SpellType.None;
     }
@@ -50,6 +58,7 @@ public class Entity : MonoBehaviour {
         HandleInput(_location);
         _currentState.Update();
         TickStatusEffect();
+        UpdateAnimator();
     }
 
     public void HandleInput(Vector3 location) {
@@ -74,6 +83,9 @@ public class Entity : MonoBehaviour {
     public void ModifyHealth(int healthMod){
         currentHealth += healthMod;
         CheckForDeath();
+        if(currentHealth > maxHealth * 2) {
+            currentHealth = maxHealth * 2;
+        }
     }
 
     public void TickStatusEffect() {
@@ -106,5 +118,9 @@ public class Entity : MonoBehaviour {
             StatusEffect = SpellType.None;
             _currentMovementSpeed = _baseMovementSpeed;
         }
+    }
+
+    public void UpdateAnimator() {
+        _animator.SetBool("IsSelected", IsSelected);
     }
 }

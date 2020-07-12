@@ -4,11 +4,18 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
     
-    [SerializeField]
     Entity _currentEntity;
+
+    [SerializeField]
+    public List<Entity> _playerEntities;
     
     private bool _leftMouseClick, _rightMouseClick, _space;
     private Vector3 _selectedLocation;
+
+    void Awake() {
+        _currentEntity = _playerEntities[0];
+        _currentEntity.IsSelected = true;
+    }
  
     void Update() {
         ReadInput();
@@ -50,7 +57,15 @@ public class PlayerController : MonoBehaviour {
 
         if(_rightMouseClick) {
             selectedEntity = RayCastFromMouse();
-            if (selectedEntity!= null) _currentEntity = selectedEntity;
+            if (selectedEntity!= null) {
+                _currentEntity = selectedEntity;
+
+                foreach(Entity entity in _playerEntities) {
+                    entity.IsSelected = false;
+                }
+                
+                _currentEntity.IsSelected = true;
+            }
         }
 
         if(_leftMouseClick) {

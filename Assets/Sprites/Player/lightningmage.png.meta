@@ -1,0 +1,1244 @@
+fileFormatVersion: 2
+guid: d2e5ae819998a2549933b2300ed6dd1f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4501724652482102825
+    second: lightningmage_0
+  - first:
+      213: -7452467551912138778
+    second: lightningmage_1
+  - first:
+      213: -3516385499164995445
+    second: lightningmage_2
+  - first:
+      213: 5501871349129368239
+    second: lightningmage_3
+  - first:
+      213: -7283083443335634654
+    second: lightningmage_4
+  - first:
+      213: -4914816303586051052
+    second: lightningmage_5
+  - first:
+      213: 6072030190324123536
+    second: lightningmage_6
+  - first:
+      213: -2971037294426769989
+    second: lightningmage_7
+  - first:
+      213: 6987717710352357009
+    second: lightningmage_8
+  - first:
+      213: -2860566847095617580
+    second: lightningmage_9
+  - first:
+      213: -7978990843873135005
+    second: lightningmage_10
+  - first:
+      213: -2064707171921498612
+    second: lightningmage_11
+  - first:
+      213: -3459848615808803486
+    second: lightningmage_12
+  - first:
+      213: 6960954698741809071
+    second: lightningmage_13
+  - first:
+      213: 7000134703887705033
+    second: lightningmage_14
+  - first:
+      213: -1642108276289613985
+    second: lightningmage_15
+  - first:
+      213: -1984555753976038500
+    second: lightningmage_16
+  - first:
+      213: 8704508341605128429
+    second: lightningmage_17
+  - first:
+      213: 5602934089321795024
+    second: lightningmage_18
+  - first:
+      213: 3716533426081348269
+    second: lightningmage_19
+  - first:
+      213: -8772136580043654725
+    second: lightningmage_20
+  - first:
+      213: 1171609466731988174
+    second: lightningmage_21
+  - first:
+      213: 7866459743831297565
+    second: lightningmage_22
+  - first:
+      213: -2402629361386095408
+    second: lightningmage_23
+  - first:
+      213: 4492373822489364839
+    second: lightningmage_24
+  - first:
+      213: -52921839049214024
+    second: lightningmage_25
+  - first:
+      213: 4363023109776640096
+    second: lightningmage_26
+  - first:
+      213: -6439116448984135761
+    second: lightningmage_27
+  - first:
+      213: -1496629365648249230
+    second: lightningmage_28
+  - first:
+      213: -6139449572979316201
+    second: lightningmage_29
+  - first:
+      213: 6404168100124496682
+    second: lightningmage_30
+  - first:
+      213: 2375949822711141514
+    second: lightningmage_31
+  - first:
+      213: 1992207442014796654
+    second: lightningmage_32
+  - first:
+      213: -8440968823474418917
+    second: lightningmage_33
+  - first:
+      213: -6717424038743367637
+    second: lightningmage_34
+  - first:
+      213: -6032648625019006578
+    second: lightningmage_35
+  - first:
+      213: -8863341324035793936
+    second: lightningmage_36
+  - first:
+      213: -4847909067488779186
+    second: lightningmage_37
+  - first:
+      213: -4500654990945961228
+    second: lightningmage_38
+  - first:
+      213: -2836680744613683215
+    second: lightningmage_39
+  - first:
+      213: 6292222562995272474
+    second: lightningmage_40
+  - first:
+      213: -2420928191668780229
+    second: lightningmage_41
+  - first:
+      213: -7597439070851244311
+    second: lightningmage_42
+  - first:
+      213: -6434327944510880702
+    second: lightningmage_43
+  - first:
+      213: -4391498258537754245
+    second: lightningmage_44
+  - first:
+      213: -7330273426383138546
+    second: lightningmage_45
+  - first:
+      213: 5682280002432488727
+    second: lightningmage_46
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lightningmage_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92680d368b6597e30800000000000000
+      internalID: 4501724652482102825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7e6241f34839890800000000000000
+      internalID: -7452467551912138778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b809fe4e40a433fc0800000000000000
+      internalID: -3516385499164995445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa251c487d29a5c40800000000000000
+      internalID: 5501871349129368239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221637a123a4dea90800000000000000
+      internalID: -7283083443335634654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c74789c901bcbb0800000000000000
+      internalID: -4914816303586051052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09787bf794f244450800000000000000
+      internalID: 6072030190324123536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5314b6251c4c6d0800000000000000
+      internalID: -2971037294426769989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196124c2c3c59f060800000000000000
+      internalID: 6987717710352357009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d74b96cb993d48d0800000000000000
+      internalID: -2860566847095617580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366f8dc1a1ee44190800000000000000
+      internalID: -7978990843873135005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0eea6434cfa853e0800000000000000
+      internalID: -2064707171921498612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26dd616d3062cffc0800000000000000
+      internalID: -3459848615808803486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf7714fa674a9060800000000000000
+      internalID: 6960954698741809071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c36c15cc69752160800000000000000
+      internalID: 7000134703887705033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f4705193f0639e0800000000000000
+      internalID: -1642108276289613985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9bfc4f6e017574e0800000000000000
+      internalID: -1984555753976038500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de85ccdd730acc870800000000000000
+      internalID: 8704508341605128429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ddc3fd5ede91cd40800000000000000
+      internalID: 5602934089321795024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_19
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daab171c577c39330800000000000000
+      internalID: 3716533426081348269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9b949d14c134680800000000000000
+      internalID: -8772136580043654725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_21
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec48b004a94624010800000000000000
+      internalID: 1171609466731988174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_22
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e89fe65774b2d60800000000000000
+      internalID: 7866459743831297565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_23
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc78a3535528aed0800000000000000
+      internalID: -2402629361386095408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7690ebf903e185e30800000000000000
+      internalID: 4492373822489364839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_25
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b77c962edbf34ff0800000000000000
+      internalID: -52921839049214024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_26
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0688e0de6629c8c30800000000000000
+      internalID: 4363023109776640096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_27
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa70dee94b9a3a6a0800000000000000
+      internalID: -6439116448984135761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_28
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e2e1c7587ea3be0800000000000000
+      internalID: -1496629365648249230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_29
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ae42e342b4ccaa0800000000000000
+      internalID: -6139449572979316201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_30
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a231fc1d4fc20e850800000000000000
+      internalID: 6404168100124496682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_31
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8499d286c119f020800000000000000
+      internalID: 2375949822711141514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_32
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b7e240d1eb5ab10800000000000000
+      internalID: 1992207442014796654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_33
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b09a4c397abda80800000000000000
+      internalID: -8440968823474418917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_34
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20280d5d6ae6c2a0800000000000000
+      internalID: -6717424038743367637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_35
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e815ef2b90ab74ca0800000000000000
+      internalID: -6032648625019006578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_36
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb5ec996061ff480800000000000000
+      internalID: -8863341324035793936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_37
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44afe07364c8bcb0800000000000000
+      internalID: -4847909067488779186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_38
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fab31891267a81c0800000000000000
+      internalID: -4500654990945961228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_39
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff5c1464e512a8d0800000000000000
+      internalID: -2836680744613683215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_40
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1bf70b5517725750800000000000000
+      internalID: 6292222562995272474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_41
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b338ad4e2a2276ed0800000000000000
+      internalID: -2420928191668780229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_42
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eedc330b69709690800000000000000
+      internalID: -7597439070851244311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_43
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2444f0333dca4b6a0800000000000000
+      internalID: -6434327944510880702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_44
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b715c1cd9934e03c0800000000000000
+      internalID: -4391498258537754245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_45
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0192f9f723a54a90800000000000000
+      internalID: -7330273426383138546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningmage_46
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7155b436e838bde40800000000000000
+      internalID: 5682280002432488727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

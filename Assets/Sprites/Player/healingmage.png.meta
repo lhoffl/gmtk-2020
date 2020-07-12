@@ -1,0 +1,1316 @@
+fileFormatVersion: 2
+guid: 9b7c9e7dd1e0ba6448f2ba2bbc4cf2c6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4057060442962423739
+    second: healingmage_0
+  - first:
+      213: 1580287084795481756
+    second: healingmage_1
+  - first:
+      213: -3027930823802878215
+    second: healingmage_2
+  - first:
+      213: 4052339011721259738
+    second: healingmage_3
+  - first:
+      213: 4007723449141144260
+    second: healingmage_4
+  - first:
+      213: -135520670005391443
+    second: healingmage_5
+  - first:
+      213: 3032942623657016025
+    second: healingmage_6
+  - first:
+      213: -8225379437160272150
+    second: healingmage_7
+  - first:
+      213: -8724210376191229106
+    second: healingmage_8
+  - first:
+      213: -3194508083395438157
+    second: healingmage_9
+  - first:
+      213: 4279620543906151322
+    second: healingmage_10
+  - first:
+      213: -26123785445550804
+    second: healingmage_11
+  - first:
+      213: 7208946778475271313
+    second: healingmage_12
+  - first:
+      213: 8034893470034493601
+    second: healingmage_13
+  - first:
+      213: 3365858627280014025
+    second: healingmage_14
+  - first:
+      213: 2971677259679441411
+    second: healingmage_15
+  - first:
+      213: 6515363975073385237
+    second: healingmage_16
+  - first:
+      213: -8649228129583191618
+    second: healingmage_17
+  - first:
+      213: 4807103264739823817
+    second: healingmage_18
+  - first:
+      213: -6727460736977760921
+    second: healingmage_19
+  - first:
+      213: -5566574207516592782
+    second: healingmage_20
+  - first:
+      213: -9033831483463118864
+    second: healingmage_21
+  - first:
+      213: 2159788891405266627
+    second: healingmage_22
+  - first:
+      213: 3254758518320676257
+    second: healingmage_23
+  - first:
+      213: 5956995469704405363
+    second: healingmage_24
+  - first:
+      213: 4141623979778330958
+    second: healingmage_25
+  - first:
+      213: -4666792984332442513
+    second: healingmage_26
+  - first:
+      213: 7838662761190184867
+    second: healingmage_27
+  - first:
+      213: 600495734855165506
+    second: healingmage_28
+  - first:
+      213: 5228771126291373864
+    second: healingmage_29
+  - first:
+      213: 1651406902099193013
+    second: healingmage_30
+  - first:
+      213: 3885811446528860316
+    second: healingmage_31
+  - first:
+      213: -6193104979881599891
+    second: healingmage_32
+  - first:
+      213: 6375012901344945495
+    second: healingmage_33
+  - first:
+      213: 1344807723843152714
+    second: healingmage_34
+  - first:
+      213: -1009355845032893910
+    second: healingmage_35
+  - first:
+      213: 8862777227372454210
+    second: healingmage_36
+  - first:
+      213: 2585810167613641994
+    second: healingmage_37
+  - first:
+      213: -5684828640456409058
+    second: healingmage_38
+  - first:
+      213: -236142583449060696
+    second: healingmage_39
+  - first:
+      213: -8722819122589654071
+    second: healingmage_40
+  - first:
+      213: -5282072673302904499
+    second: healingmage_41
+  - first:
+      213: 3638743158693193153
+    second: healingmage_42
+  - first:
+      213: 5097548444433844291
+    second: healingmage_43
+  - first:
+      213: 5539312147039484830
+    second: healingmage_44
+  - first:
+      213: -6951230358959993433
+    second: healingmage_45
+  - first:
+      213: 43697982801908218
+    second: healingmage_46
+  - first:
+      213: 219483068699525732
+    second: healingmage_47
+  - first:
+      213: -295808869570444430
+    second: healingmage_48
+  - first:
+      213: 6395662888040555078
+    second: healingmage_49
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: healingmage_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5409fe8b50d62b7c0800000000000000
+      internalID: -4057060442962423739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e4f5c1bbe4ee510800000000000000
+      internalID: 1580287084795481756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f606ca55f0aaf5d0800000000000000
+      internalID: -3027930823802878215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada6a176cdccc3830800000000000000
+      internalID: 4052339011721259738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4caaf004e3b4e9730800000000000000
+      internalID: 4007723449141144260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf0b9c2ba88e1ef0800000000000000
+      internalID: -135520670005391443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dab73b3f3d271a20800000000000000
+      internalID: 3032942623657016025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee62495bf499dd80800000000000000
+      internalID: -8225379437160272150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43485db2e06de680800000000000000
+      internalID: -8724210376191229106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9d919c2d3daa3d0800000000000000
+      internalID: -3194508083395438157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b7df4d534446b30800000000000000
+      internalID: 4279620543906151322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2554583e8033aff0800000000000000
+      internalID: -26123785445550804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19417bf76e25b0460800000000000000
+      internalID: 7208946778475271313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a003815a0da18f60800000000000000
+      internalID: 8034893470034493601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca8533a69ee5be20800000000000000
+      internalID: 3365858627280014025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302ac4a19b48d3920800000000000000
+      internalID: 2971677259679441411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b40a4f3093b6a50800000000000000
+      internalID: 6515363975073385237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9a0ea77d4c7f780800000000000000
+      internalID: -8649228129583191618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0107d33f246b240800000000000000
+      internalID: 4807103264739823817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_19
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d8d047a1243a2a0800000000000000
+      internalID: -6727460736977760921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2753f11504e8fb2b0800000000000000
+      internalID: -5566574207516592782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_21
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffc07b012261a280800000000000000
+      internalID: -9033831483463118864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_22
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ceab0ebd8c19fd10800000000000000
+      internalID: 2159788891405266627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_23
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad3e22c0a93b2d20800000000000000
+      internalID: 3254758518320676257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371a75471df7ba250800000000000000
+      internalID: 5956995469704405363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_25
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e415debf0110a7930800000000000000
+      internalID: 4141623979778330958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_26
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f646498a1883c3fb0800000000000000
+      internalID: -4666792984332442513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_27
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7d2d2104688cc60800000000000000
+      internalID: 7838662761190184867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_28
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246ed2570b3655800800000000000000
+      internalID: 600495734855165506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_29
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f9a6ad2a3509840800000000000000
+      internalID: 5228771126291373864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_30
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc2043f3d9fae610800000000000000
+      internalID: 1651406902099193013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_31
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90ef763cec2de530800000000000000
+      internalID: 3885811446528860316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_32
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c547155dbad0aa0800000000000000
+      internalID: -6193104979881599891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_33
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755a23f1578987850800000000000000
+      internalID: 6375012901344945495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_34
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b6fdeef77b9a210800000000000000
+      internalID: 1344807723843152714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_35
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22a9dce43c0ef1f0800000000000000
+      internalID: -1009355845032893910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_36
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241e4f86ee8eefa70800000000000000
+      internalID: 8862777227372454210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_37
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a055431b5a4a2e320800000000000000
+      internalID: 2585810167613641994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_38
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1001a4987e6b11b0800000000000000
+      internalID: -5684828640456409058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_39
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aafc2d429d09bcf0800000000000000
+      internalID: -236142583449060696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_40
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c32f06393252f680800000000000000
+      internalID: -8722819122589654071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_41
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d418bf5a3ee42b6b0800000000000000
+      internalID: -5282072673302904499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_42
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c56acabf996f7230800000000000000
+      internalID: 3638743158693193153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_43
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34803df5d412eb640800000000000000
+      internalID: 5097548444433844291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_44
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b7b489c079fdc40800000000000000
+      internalID: 5539312147039484830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_45
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad474651d4488f90800000000000000
+      internalID: -6951230358959993433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_46
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af11f46751f3b9000800000000000000
+      internalID: 43697982801908218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_47
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4624c0820b2cb0300800000000000000
+      internalID: 219483068699525732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_48
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27308df766315ebf0800000000000000
+      internalID: -295808869570444430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healingmage_49
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6426ec0d285f1c850800000000000000
+      internalID: 6395662888040555078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
