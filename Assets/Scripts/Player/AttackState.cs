@@ -6,8 +6,6 @@ public class AttackState : IState
 {
     Entity _entity;
 
-    float cooldownTime = 3.0f;
-
     public void HandleInput(Vector3 position, bool leftMouseClick) {
         shoot(position);
     }
@@ -17,8 +15,6 @@ public class AttackState : IState
     }
 
     public void Exit() {
-        //After attacking a character cools down
-        //_entity.StartCoroutine(Cooldown());  
     }
 
     public void Update() {
@@ -30,10 +26,7 @@ public class AttackState : IState
         var direction = heading / heading.magnitude;
         direction.Normalize();
         float rotationZ = Mathf.Atan2(heading.y, heading.x) * Mathf.Rad2Deg;
-        /*
-        var distance = heading.magnitude;
-        var direction = heading / distance;
-        */
+
         Spell projectile = PlayerSpellPool.Instance.GetSpell();
         if(projectile != null) {
             projectile.gameObject.SetActive(true);
@@ -42,10 +35,7 @@ public class AttackState : IState
             projectile.GetComponent<Rigidbody2D>().velocity = direction; 
             projectile.Caster = _entity;
         }
-        _entity.EnterState(new IdleState());
+        
+        _entity.EnterState(new CooldownState());
     }
-    
-    private IEnumerator Cooldown(){
-            yield return new WaitForSeconds(cooldownTime);
-        }
 }

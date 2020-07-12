@@ -9,10 +9,6 @@ public class EnemyController : MonoBehaviour {
 
     [SerializeField]
     private float _enemySightRange = 3f;
-    
-    void Start() {
-        
-    }
 
     void Update() {
         foreach(Entity enemy in _enemyList) {
@@ -79,7 +75,10 @@ public class EnemyController : MonoBehaviour {
                 offsetVector = -offsetVector;
             }
 
-            enemy.EnterState(new MovingState());
+            if(!typeof(CooldownState).IsInstanceOfType(enemy.CurrentState())) {
+                if(!typeof(MovingState).IsInstanceOfType(enemy.CurrentState()))
+                    enemy.EnterState(new MovingState());
+            }
             
             Vector3 targetLocation = entity.transform.position + offsetVector;
             if(GameManager.Instance.ValidPosition(targetLocation)) {
@@ -88,7 +87,8 @@ public class EnemyController : MonoBehaviour {
             else {
                 enemy.HandleInput(enemy.transform.position);
             }
-        } else {
+        } 
+        else {
             enemy.EnterState(new RoamingState());
         }
     }
@@ -96,7 +96,8 @@ public class EnemyController : MonoBehaviour {
     private void AttackEntity(Entity enemy, Entity entity) {
     
         if(Vector3.Distance(enemy.transform.position, entity.transform.position) <= _enemySightRange / 2) {
-            enemy.EnterState(new AttackState());
+            if(!typeof(CooldownState).IsInstanceOfType(enemy.CurrentState()))
+                enemy.EnterState(new AttackState());
         }
     }
 }
