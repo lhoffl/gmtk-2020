@@ -33,7 +33,7 @@ public class AttackState : IState
             projectile.Type = _entity.Type;
             projectile.transform.position = _entity.transform.GetComponent<Renderer>().bounds.center;
             projectile.transform.rotation = Quaternion.Euler(0.0f, 0.0f, rotationZ);
-            projectile.GetComponent<Rigidbody2D>().velocity = direction; 
+            projectile.GetComponent<Rigidbody2D>().velocity = direction * 5; 
             projectile.Caster = _entity;
         }
 
