@@ -106,4 +106,17 @@ public class PlayerController : MonoBehaviour {
 
         return null;
     }
+
+    private void CheckForOnePlayerLeft() {
+        int count = _playerEntities.Count;
+        foreach(Entity entity in _playerEntities) {
+            if(!entity.isActiveAndEnabled) {
+                count--;
+            }
+        }
+
+        if(count == 1) {
+            GameManager.Instance.OnePlayerRemaining = true;
+        }
+    }
 }

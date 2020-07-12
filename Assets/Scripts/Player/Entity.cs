@@ -27,7 +27,7 @@ public class Entity : MonoBehaviour {
 
     public SpellType StatusEffect { get; set; }
 
-    private int _statusEffectTimer = 30;
+    private int _statusEffectTimer = 60;
     private int _count = 0;
 
     private Animator _animator;
