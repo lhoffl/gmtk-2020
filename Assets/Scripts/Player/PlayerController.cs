@@ -14,8 +14,6 @@ public class PlayerController : MonoBehaviour {
         ReadInput();
         HandleInput();
         ResetInput();
-
-        Debug.Log(_currentEntity.CurrentState());
     }
 
     private void ReadInput() {
@@ -27,7 +25,7 @@ public class PlayerController : MonoBehaviour {
             _rightMouseClick = true;
         }
 
-        if(Input.GetKeyDown(KeyCode.Space)){
+        if(Input.GetKey(KeyCode.Space)){
             _space = true;
         }
 
@@ -68,8 +66,10 @@ public class PlayerController : MonoBehaviour {
             //selectedEntity = RayCastFromMouse();
             if(_currentEntity != null){
                 if(!typeof(MovingState).IsInstanceOfType(_currentEntity.CurrentState())) {
-                    _currentEntity.EnterState(new AttackState());
-                    _currentEntity.HandleInput(_selectedLocation);
+                    if(!typeof(CooldownState).IsInstanceOfType(_currentEntity.CurrentState())) {
+                        _currentEntity.EnterState(new AttackState());
+                        _currentEntity.HandleInput(_selectedLocation);
+                    }
                 }
             }
         }
