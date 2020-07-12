@@ -10,6 +10,12 @@ public class EnemyController : MonoBehaviour {
     [SerializeField]
     private float _enemySightRange = 3f;
 
+    public static EnemyController Instance { get; private set; }
+
+    void Awake() {
+        Instance = this;
+    }
+
     void Update() {
         foreach(Entity enemy in _enemyList) {
 
@@ -25,7 +31,7 @@ public class EnemyController : MonoBehaviour {
                         enemy.EnterState(new RoamingState());
                     }
                 }
-            }
+        }
     }
 
     private Entity FindClosestPlayerEntity(Entity enemy) {
