@@ -121,6 +121,7 @@ public class Entity : MonoBehaviour {
     }
 
     public void UpdateAnimator() {
-        _animator.SetBool("IsSelected", IsSelected);
+        if(_isPlayerEntity)
+            _animator.SetBool("IsSelected", IsSelected);
     }
 }
