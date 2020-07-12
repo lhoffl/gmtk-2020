@@ -77,7 +77,16 @@ public class Entity : MonoBehaviour {
     }
 
     public void CheckForDeath(){
-        if (currentHealth <= 0) gameObject.active = false;
+        if (currentHealth <= 0) {
+            gameObject.active = false;
+
+            if(IsPlayerEntity) {
+                GameManager.Instance.PlayersRemaining--;
+            }
+            else {
+                GameManager.Instance.EnemiesRemaining--;
+            }
+        }
     }
 
     public void ModifyHealth(int healthMod){
