@@ -32,4 +32,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/Level5-FireHell.unity
     guid: 8f55ee5fd0bcddd438cae4dc38e0a93d
+  - enabled: 1
+    path: Assets/Scenes/Menus/GameOver-Lose.unity
+    guid: cda0604391ccb234da905ea9ce2c4588
+  - enabled: 1
+    path: Assets/Scenes/Menus/GameOver-Win.unity
+    guid: cdc04790d63e7d54aa4a3b29e2bb1b2f
   m_configObjects: {}
