@@ -16,7 +16,7 @@ TextureImporter:
     second: SpriteSheet3_3
   - first:
       213: 492473184367310066
-    second: SpriteSheet3_4
+    second: HealingMage
   - first:
       213: -2882488309779346908
     second: SpriteSheet3_5
@@ -46,10 +46,10 @@ TextureImporter:
     second: SpriteSheet3_13
   - first:
       213: 8809590907218368785
-    second: SpriteSheet3_14
+    second: FireDog
   - first:
       213: -657657151547844916
-    second: SpriteSheet3_15
+    second: ElectricMage
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -231,15 +231,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet3_4
+      name: HealingMage
       rect:
         serializedVersion: 2
         x: 0
         y: 32
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -441,7 +441,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet3_14
+      name: FireDog
       rect:
         serializedVersion: 2
         x: 32
@@ -462,15 +462,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet3_15
+      name: ElectricMage
       rect:
         serializedVersion: 2
         x: 48
         y: 0
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

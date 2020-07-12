@@ -6,7 +6,7 @@ public class CooldownState : IState {
 
     Entity _entity;
 
-    private int _cooldown = 100;
+    private int _cooldown = 75;
 
     public void HandleInput(Vector3 position, bool leftMouseClick) {
         if(leftMouseClick) {
