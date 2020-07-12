@@ -33,7 +33,7 @@ public class Spell : MonoBehaviour
 
     void FixedUpdate() {
 
-        if(_timeAlive >= secondsToLive * 360) {
+        if(_timeAlive >= secondsToLive * 10) {
             PlayerSpellPool.Instance.ReturnSpell(this);
         }
 
