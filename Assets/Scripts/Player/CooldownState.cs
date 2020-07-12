@@ -22,7 +22,9 @@ public class CooldownState : IState {
 
     public void Update() {
         _cooldown--;
+        _entity.cooldownTracker = _cooldown;
         if(_cooldown <= 0) {
+            _entity.cooldownTracker = 0;
             _entity.EnterState(new IdleState());
         }
     }

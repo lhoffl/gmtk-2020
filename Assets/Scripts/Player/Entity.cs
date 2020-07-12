@@ -9,6 +9,8 @@ public class Entity : MonoBehaviour {
     public int maxHealth = 10;
     public int currentHealth;
 
+    public int cooldownTracker = 0;
+
     [SerializeField]
     private bool _isPlayerEntity = true;
     public bool IsPlayerEntity => _isPlayerEntity;

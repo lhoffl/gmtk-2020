@@ -179,7 +179,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91775a68d8b90ce4b81e7a43d3ef0206, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spell: {fileID: 0}
   _baseMovementSpeed: 1
+  maxHealth: 10
+  currentHealth: 0
   _isPlayerEntity: 1
 --- !u!50 &347035022
 Rigidbody2D:
@@ -384,7 +387,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91775a68d8b90ce4b81e7a43d3ef0206, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spell: {fileID: 0}
   _baseMovementSpeed: 1
+  maxHealth: 10
+  currentHealth: 0
   _isPlayerEntity: 1
 --- !u!50 &1374036105
 Rigidbody2D:
@@ -472,6 +478,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1377575876 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7896880878226056158, guid: 9b42a3863dd6d844db4c94269de40563,
+    type: 3}
+  m_PrefabInstance: {fileID: 7896880878707354681}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1910215212
 GameObject:
   m_ObjectHideFlags: 0
@@ -483,6 +495,7 @@ GameObject:
   - component: {fileID: 1910215215}
   - component: {fileID: 1910215214}
   - component: {fileID: 1910215213}
+  - component: {fileID: 1910215216}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -508,7 +521,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -555,6 +568,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1910215216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910215212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36e2f2821cb2fbb47b689cdddaa7c8f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gridObject: {fileID: 1377575876}
 --- !u!1001 &7896880878707354681
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -616,6 +642,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7896880878226056145, guid: 9b42a3863dd6d844db4c94269de40563,
+        type: 3}
+      propertyPath: mapSizeX
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7896880878226056145, guid: 9b42a3863dd6d844db4c94269de40563,
+        type: 3}
+      propertyPath: mapSizeY
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7896880878226056158, guid: 9b42a3863dd6d844db4c94269de40563,
         type: 3}
