@@ -12,19 +12,20 @@ public class EnemyController : MonoBehaviour {
 
     void Update() {
         foreach(Entity enemy in _enemyList) {
-            Entity playerEntity = FindClosestPlayerEntity(enemy);
 
-            if(playerEntity != null) {
-                MoveToEntity(enemy, playerEntity);
-                AttackEntity(enemy, playerEntity);
-            }
-            else {
+                Entity playerEntity = FindClosestPlayerEntity(enemy);
 
-                if(!typeof(RoamingState).IsInstanceOfType(enemy.CurrentState())) {
-                    enemy.EnterState(new RoamingState());
+                if(playerEntity != null) {
+                    MoveToEntity(enemy, playerEntity);
+                    AttackEntity(enemy, playerEntity);
+                }
+                else {
+
+                    if(!typeof(RoamingState).IsInstanceOfType(enemy.CurrentState())) {
+                        enemy.EnterState(new RoamingState());
+                    }
                 }
             }
-        }
     }
 
     private Entity FindClosestPlayerEntity(Entity enemy) {
