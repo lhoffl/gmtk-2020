@@ -12,7 +12,11 @@ public class PlayerController : MonoBehaviour {
     private bool _leftMouseClick, _rightMouseClick, _space;
     private Vector3 _selectedLocation;
 
+    public static PlayerController Instance { get; private set;}
+
     void Awake() {
+
+        Instance = this;
         _currentEntity = _playerEntities[0];
         _currentEntity.IsSelected = true;
     }
@@ -113,10 +117,6 @@ public class PlayerController : MonoBehaviour {
             if(!entity.isActiveAndEnabled) {
                 count--;
             }
-        }
-
-        if(count == 1) {
-            GameManager.Instance.OnePlayerRemaining = true;
         }
     }
 }

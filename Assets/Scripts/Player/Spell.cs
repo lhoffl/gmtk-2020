@@ -85,10 +85,6 @@ public class Spell : MonoBehaviour
 
         int damageMod = _normalDamageModifier;
 
-        if(GameManager.Instance.OnePlayerRemaining) {
-            return _criticalDamageModifier * _criticalDamageModifier;
-        }
-
         switch (type) {
             case SpellType.Fire:
                 if(this.Type == SpellType.Ice) {

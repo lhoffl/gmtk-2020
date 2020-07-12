@@ -13,12 +13,14 @@ public class GameManager : MonoBehaviour {
 
     public static GameManager Instance { get; private set; }
 
-    public bool OnePlayerRemaining { get; set; }
+    public int PlayersRemaining { get; set; }
+    public int EnemiesRemaining { get; set; }
 
     void Awake() {
         Instance = this;
 
-        OnePlayerRemaining = false;
+        PlayersRemaining = PlayerController.Instance._playerEntities.Count;
+        EnemiesRemaining = EnemyController.Instance._enemyList.Count;
 
         _objectGrid = new Grid<GameObject>(_width, _height, Vector3.zero, _cellSize, 
             (Grid<GameObject> grid, int x, int y) => null);
@@ -35,7 +37,13 @@ public class GameManager : MonoBehaviour {
     }
 
     void Update() {
-        
+        if(IsGameOver()) {
+            Debug.Log("You lost");
+        }
+
+        if(IsGameWon()) {
+            Debug.Log("you win");
+        }
     }
 
     public Grid<GameObject> GetObjectGrid() {
@@ -52,5 +60,13 @@ public class GameManager : MonoBehaviour {
         }
 
         return true;
+    }
+
+    public bool IsGameOver() {
+        return (PlayersRemaining <= 0);
+    }
+
+    public bool IsGameWon() {
+        return (EnemiesRemaining <= 0);
     }
 }
