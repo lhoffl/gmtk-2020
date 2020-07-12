@@ -368,6 +368,7 @@ MonoBehaviour:
   maxHealth: 10
   currentHealth: 0
   _isPlayerEntity: 0
+  _type: 0
 --- !u!50 &1058760949
 Rigidbody2D:
   serializedVersion: 4
@@ -537,6 +538,7 @@ MonoBehaviour:
   maxHealth: 10
   currentHealth: 0
   _isPlayerEntity: 1
+  _type: 1
 --- !u!50 &1072832159
 Rigidbody2D:
   serializedVersion: 4
@@ -682,7 +684,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _spellPrefab: {fileID: 8784742111201846451, guid: f54e3d57530217847a77e6a65b5370ec,
     type: 3}
-  _poolSize: 100
+  _poolSize: 200
 --- !u!1 &1656951586
 GameObject:
   m_ObjectHideFlags: 0
@@ -766,6 +768,7 @@ MonoBehaviour:
   maxHealth: 10
   currentHealth: 0
   _isPlayerEntity: 0
+  _type: 0
 --- !u!212 &1656951590
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -957,6 +960,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3209055612750939415, guid: 9aa1957e9cc2dff418c1978146cb74e7,
+        type: 3}
+      propertyPath: _type
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9aa1957e9cc2dff418c1978146cb74e7, type: 3}

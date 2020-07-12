@@ -30,12 +30,13 @@ public class AttackState : IState
         Spell projectile = PlayerSpellPool.Instance.GetSpell();
         if(projectile != null) {
             projectile.gameObject.SetActive(true);
+            projectile.Type = _entity.Type;
             projectile.transform.position = _entity.transform.GetComponent<Renderer>().bounds.center;
             projectile.transform.rotation = Quaternion.Euler(0.0f, 0.0f, rotationZ);
             projectile.GetComponent<Rigidbody2D>().velocity = direction; 
             projectile.Caster = _entity;
         }
-        
+
         _entity.EnterState(new CooldownState());
     }
 }
