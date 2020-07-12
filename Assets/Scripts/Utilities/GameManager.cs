@@ -13,8 +13,12 @@ public class GameManager : MonoBehaviour {
 
     public static GameManager Instance { get; private set; }
 
+    public bool OnePlayerRemaining { get; set; }
+
     void Awake() {
         Instance = this;
+
+        OnePlayerRemaining = false;
 
         _objectGrid = new Grid<GameObject>(_width, _height, Vector3.zero, _cellSize, 
             (Grid<GameObject> grid, int x, int y) => null);
@@ -49,5 +53,4 @@ public class GameManager : MonoBehaviour {
 
         return true;
     }
-
 }
