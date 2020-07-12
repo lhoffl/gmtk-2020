@@ -15,6 +15,11 @@ public class Entity : MonoBehaviour {
     
     private int _currentMovementSpeed;
     public int MovementSpeed => _currentMovementSpeed;
+
+    [SerializeField]
+    private SpellType _type;
+
+    public SpellType Type => _type;
     
     [SerializeField]
     private IState _currentState;
