@@ -76,6 +76,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cbaf0fca52334e43b9feeed2539ca62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startBGM_clip: {fileID: 8300000, guid: 1e3109dbe98b282438511183f632d4e4, type: 3}
-  loopBGM_clip: {fileID: 8300000, guid: 13019352883fd9146aef7f0419de0760, type: 3}
-  stopBGM_clip: {fileID: 8300000, guid: 798bd803b469ddc4b8639b69eda4fe2a, type: 3}
+  startBGM_clip: {fileID: 8300000, guid: ed8757369573f3f4e95000b8225045e7, type: 3}
+  loopBGM_clip: {fileID: 8300000, guid: e7e67ac69d9779e49b1d8824a7057d07, type: 3}
+  stopBGM_clip: {fileID: 8300000, guid: 447397d705ecba943af5bad1652d6a65, type: 3}

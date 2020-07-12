@@ -14,7 +14,7 @@ public class AudioManager : MonoBehaviour {
     private bool play_main_loop = true;
 
     void Start() {
-        startBGM_source = AddAudio(startBGM_clip, false, true, 0.8f);
+        startBGM_source = AddAudio(startBGM_clip, false, true, 0.4f);
         loopBGM_source = AddAudio(loopBGM_clip, true, true, 0.8f);
         stopBGM_source = AddAudio(stopBGM_clip, false, true, 0.8f);
 
