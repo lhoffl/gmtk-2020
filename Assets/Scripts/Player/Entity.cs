@@ -91,6 +91,16 @@ public class Entity : MonoBehaviour {
             _count++;
         }
 
+        if(StatusEffect == SpellType.Healing) {
+            ModifyHealth(1);
+            _count++;
+        }
+
+        if(StatusEffect == SpellType.Lightning) {
+            _currentMovementSpeed = _baseMovementSpeed * 2;
+            _count++;
+        }
+
         if(_count >= _statusEffectTimer) {
             _count = 0;
             StatusEffect = SpellType.None;
