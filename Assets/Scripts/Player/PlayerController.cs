@@ -12,7 +12,11 @@ public class PlayerController : MonoBehaviour {
     private bool _leftMouseClick, _rightMouseClick, _space;
     private Vector3 _selectedLocation;
 
+    public static PlayerController Instance { get; private set;}
+
     void Awake() {
+
+        Instance = this;
         _currentEntity = _playerEntities[0];
         _currentEntity.IsSelected = true;
     }
@@ -105,5 +109,14 @@ public class PlayerController : MonoBehaviour {
         }
 
         return null;
+    }
+
+    private void CheckForOnePlayerLeft() {
+        int count = _playerEntities.Count;
+        foreach(Entity entity in _playerEntities) {
+            if(!entity.isActiveAndEnabled) {
+                count--;
+            }
+        }
     }
 }

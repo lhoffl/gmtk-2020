@@ -27,7 +27,7 @@ public class Entity : MonoBehaviour {
 
     public SpellType StatusEffect { get; set; }
 
-    private int _statusEffectTimer = 30;
+    private int _statusEffectTimer = 60;
     private int _count = 0;
 
     private Animator _animator;
@@ -77,7 +77,16 @@ public class Entity : MonoBehaviour {
     }
 
     public void CheckForDeath(){
-        if (currentHealth <= 0) gameObject.active = false;
+        if (currentHealth <= 0) {
+            gameObject.active = false;
+
+            if(IsPlayerEntity) {
+                GameManager.Instance.PlayersRemaining--;
+            }
+            else {
+                GameManager.Instance.EnemiesRemaining--;
+            }
+        }
     }
 
     public void ModifyHealth(int healthMod){
@@ -121,6 +130,7 @@ public class Entity : MonoBehaviour {
     }
 
     public void UpdateAnimator() {
-        _animator.SetBool("IsSelected", IsSelected);
+        if(_isPlayerEntity)
+            _animator.SetBool("IsSelected", IsSelected);
     }
 }

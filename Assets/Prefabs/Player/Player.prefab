@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &637637890760369352
+--- !u!1 &2339015298299508934
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,23 +8,23 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 637637890760369366}
-  - component: {fileID: 637637890760369353}
-  - component: {fileID: 637637890760369367}
+  - component: {fileID: 2339015298299508931}
+  - component: {fileID: 2339015298299508928}
+  - component: {fileID: 2339015298299508929}
   m_Layer: 0
-  m_Name: Player
+  m_Name: Player 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &637637890760369366
+--- !u!4 &2339015298299508931
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 637637890760369352}
+  m_GameObject: {fileID: 2339015298299508934}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 18.517002, y: 7.9985633, z: -16.209415}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -32,25 +32,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &637637890760369353
+--- !u!114 &2339015298299508928
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 637637890760369352}
+  m_GameObject: {fileID: 2339015298299508934}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65dff501157615b40829201cc0c4111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &637637890760369367
+  _playerEntities:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &2339015298299508929
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 637637890760369352}
+  m_GameObject: {fileID: 2339015298299508934}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c4223ec0fa96dd0439fda6d11ab32e40, type: 3}
@@ -58,4 +63,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _spellPrefab: {fileID: 8784742111201846451, guid: f54e3d57530217847a77e6a65b5370ec,
     type: 3}
-  _poolSize: 100
+  _poolSize: 200

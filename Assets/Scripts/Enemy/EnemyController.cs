@@ -10,20 +10,27 @@ public class EnemyController : MonoBehaviour {
     [SerializeField]
     private float _enemySightRange = 3f;
 
+    public static EnemyController Instance { get; private set; }
+
+    void Awake() {
+        Instance = this;
+    }
+
     void Update() {
         foreach(Entity enemy in _enemyList) {
-            Entity playerEntity = FindClosestPlayerEntity(enemy);
 
-            if(playerEntity != null) {
-                MoveToEntity(enemy, playerEntity);
-                AttackEntity(enemy, playerEntity);
-            }
-            else {
+                Entity playerEntity = FindClosestPlayerEntity(enemy);
 
-                if(!typeof(RoamingState).IsInstanceOfType(enemy.CurrentState())) {
-                    enemy.EnterState(new RoamingState());
+                if(playerEntity != null) {
+                    MoveToEntity(enemy, playerEntity);
+                    AttackEntity(enemy, playerEntity);
                 }
-            }
+                else {
+
+                    if(!typeof(RoamingState).IsInstanceOfType(enemy.CurrentState())) {
+                        enemy.EnterState(new RoamingState());
+                    }
+                }
         }
     }
 

@@ -16,6 +16,9 @@ public class RoamingState : IState {
 
     private float _speedModifier = 0.5f;
 
+    private int _roamAmount = 20;
+    private int _count = 0;
+
     public void HandleInput(Vector3 position, bool leftMouseClick) {
 
     }
@@ -63,7 +66,6 @@ public class RoamingState : IState {
                 _entity.EnterState(new IdleState());
             }
         }
-        Debug.Log(target);
         return target;
     }
 
@@ -83,6 +85,12 @@ public class RoamingState : IState {
                 Vector3 temp = _currentTarget;
                 _currentTarget = _previousTarget;
                 _previousTarget= temp;
+            }
+
+            _count++;
+            if(_count > _roamAmount) {
+                _count = 0;
+                _targetLocation = GetValidateAlternatePoint();
             }
     }
 }

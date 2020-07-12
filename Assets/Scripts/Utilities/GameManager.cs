@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine; using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
     
@@ -13,8 +14,14 @@ public class GameManager : MonoBehaviour {
 
     public static GameManager Instance { get; private set; }
 
+    public int PlayersRemaining { get; set; }
+    public int EnemiesRemaining { get; set; }
+
     void Awake() {
         Instance = this;
+
+        PlayersRemaining = PlayerController.Instance._playerEntities.Count;
+        EnemiesRemaining = EnemyController.Instance._enemyList.Count;
 
         _objectGrid = new Grid<GameObject>(_width, _height, Vector3.zero, _cellSize, 
             (Grid<GameObject> grid, int x, int y) => null);
@@ -31,7 +38,15 @@ public class GameManager : MonoBehaviour {
     }
 
     void Update() {
-        
+        if(IsGameOver()) {
+            Debug.Log("You lost");
+            SceneManager.LoadScene("GameOver-Lose"); 
+        }
+
+        if(IsGameWon()) {
+            Debug.Log("you winrar");
+            SceneManager.LoadScene("GameOver-Win"); 
+        }
     }
 
     public Grid<GameObject> GetObjectGrid() {
@@ -50,4 +65,11 @@ public class GameManager : MonoBehaviour {
         return true;
     }
 
+    public bool IsGameOver() {
+        return (PlayersRemaining <= 0);
+    }
+
+    public bool IsGameWon() {
+        return (EnemiesRemaining <= 0);
+    }
 }

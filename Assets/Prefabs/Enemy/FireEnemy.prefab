@@ -191,8 +191,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91775a68d8b90ce4b81e7a43d3ef0206, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _baseMovementSpeed: 2
-  maxHealth: 100
+  _baseMovementSpeed: 3
+  maxHealth: 200
   currentHealth: 0
   cooldownTracker: 0
   _isPlayerEntity: 0

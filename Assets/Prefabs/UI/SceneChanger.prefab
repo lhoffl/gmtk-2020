@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3808839538901777205}
-  - component: {fileID: 3808839538901777202}
+  - component: {fileID: 5051014895052307841}
   m_Layer: 0
   m_Name: SceneChanger
   m_TagString: Untagged
@@ -31,7 +31,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3808839538901777202
+--- !u!114 &5051014895052307841
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
